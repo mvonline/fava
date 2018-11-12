@@ -36,7 +36,7 @@ class MyTestTests extends TestCase
 
     public function test3Add()
     {
-        $result = $this->mytest->add(30000000, 50000000);
+        $result = $this->mytest->add(3, 5);
         $this->assertEquals(8, $result);
     }
 
